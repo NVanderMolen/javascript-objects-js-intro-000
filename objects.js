@@ -3,5 +3,6 @@ var playlist = {
 
 }
 function updatePlaylist(playlist, artistName, songTitle){
-  playlist.SOJA = "Better"
+  playlist[artistName] = songTitle
+  return playlist
 }
